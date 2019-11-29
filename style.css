@@ -1,0 +1,85 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  background-color: #1f2833;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.nav .navbar-nav .navbar-right {
+  padding-right: 5px;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 180vh;
+}
+
+.row-content.col-sm6.text-center {
+  padding-top: 25px;
+}
+
+#main {
+  height: 100vh;
+  padding-top: 10vh;
+}
+#main h1 {
+  font-size: 45px;
+}
+.container{
+  position: relative;
+  text-align: center;
+}
+.container img {
+  width: 480px;
+  height: 270px;
+}
+.typeLogo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#history {
+  height: 100vh;
+  padding-top: 10vh;
+  width: 100%;
+}
+.about h3 {
+  color: #0b0c10;
+}
+.linkedin {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.github {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  background-color: #66fcf1;
+  background-color: #c5c6c7;
+  margin: auto;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
