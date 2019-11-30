@@ -7,6 +7,12 @@
 .nav .navbar-nav .navbar-right {
   padding-right: 5px;
 }
+.navbar-header button {
+  background-color: #c5c6c7;
+}
+.navbar-header span {
+  background-color: #1f2833;
+}
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
   height: 180vh;
@@ -74,7 +80,6 @@ body {
   margin: auto;
 }
 
-
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
   .sidenav {
@@ -82,4 +87,9 @@ body {
     padding: 15px;
   }
   .row.content {height:auto;}
+  .container img {
+    height: 40vh;
+    width: 60vh;
+
+  }
 }
