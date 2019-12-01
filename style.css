@@ -3,6 +3,7 @@
   background-color: #1f2833;
   margin-bottom: 0;
   border-radius: 0;
+  width: auto;
 }
 .nav .navbar-nav .navbar-right {
   padding-right: 5px;
@@ -14,23 +15,21 @@
   background-color: #1f2833;
 }
 .about h3{
-  font-size: 30pt;
+  font-size: 7vh;
 }
 .about .col-sm-12 p {
-  font-size: 24pt;
+  font-size: 4vh;
   color: #0b0c10;
-  margin-top: 4vh;
+  margin-top: 2vh;
   margin-bottom: 6vh;
 }
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
   height: 180vh;
 }
-
 .row-content.col-sm6.text-center {
   padding-top: 25px;
 }
-
 #main {
   height: 100vh;
   padding-top: 10vh;
@@ -43,8 +42,8 @@
   text-align: center;
 }
 .container img {
-  width: 480px;
-  height: 270px;
+  width: 48vh;
+  height: 27vh;
 }
 .typeLogo {
   position: absolute;
@@ -61,13 +60,13 @@
   color: #0b0c10;
 }
 .linkedin {
-  height: 50px;
-  width: 50px;
+  height: 10vh;
+  width: 10vh;
   margin-right: 10px;
 }
 .github {
-  height: 50px;
-  width: 50px;
+  height: 10vh;
+  width: 10vh;
   margin-left: 10px;
 }
 
@@ -95,19 +94,37 @@ body {
     height: auto;
     padding: 15px;
   }
-  .about h3 {
-    font-size: 18pt;
-  }
+
   .about .col-sm-12 p {
-    font-size: 12pt;
+    font-size: 2vh;
+    color: #0b0c10;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+  }
+  .linkedin{
+    height: 5vh;
+    width: 5vh;
+  }
+  .github{
+    height: 5vh;
+    width: 5vh;
+  }
+  .row.content {height:auto;}
+}
+@media screen and (max-width: 668px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .about .col-sm-12 p {
+    font-size: 2vh;
     color: #0b0c10;
     margin-top: 2vh;
     margin-bottom: 4vh;
   }
   .row.content {height:auto;}
-  .container img {
-    height: 40vh;
-    width: 60vh;
+  .typeLogo{
 
   }
 }
