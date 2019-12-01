@@ -13,6 +13,15 @@
 .navbar-header span {
   background-color: #1f2833;
 }
+.about h3{
+  font-size: 30pt;
+}
+.about .col-sm-12 p {
+  font-size: 24pt;
+  color: #0b0c10;
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+}
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
   height: 180vh;
@@ -85,6 +94,15 @@ body {
   .sidenav {
     height: auto;
     padding: 15px;
+  }
+  .about h3 {
+    font-size: 18pt;
+  }
+  .about .col-sm-12 p {
+    font-size: 12pt;
+    color: #0b0c10;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
   }
   .row.content {height:auto;}
   .container img {
