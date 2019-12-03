@@ -1,6 +1,6 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
-  background-color: #1f2833;
+  background-color: #ff4141;
   margin-bottom: 0;
   border-radius: 0;
   width: auto;
@@ -9,19 +9,24 @@
   padding-right: 5px;
 }
 .navbar-header button {
-  background-color: #c5c6c7;
+  background-color: #f9f9f9;
 }
 .navbar-header span {
-  background-color: #1f2833;
+  background-color: #ff4141;
+}
+.navbar-collapse ul li a{
+  color: #333333;
 }
 .about h3{
   font-size: 7vh;
+  font-family: 'Roboto Slab', serif;
 }
 .about .col-sm-12 p {
   font-size: 4vh;
   color: #0b0c10;
   margin-top: 2vh;
   margin-bottom: 6vh;
+  font-family: 'Roboto Slab', serif;
 }
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
@@ -33,6 +38,7 @@
 #main {
   height: 100vh;
   padding-top: 10vh;
+  background-color: #f9f9f9;
 }
 #main h1 {
   font-size: 45px;
@@ -55,6 +61,7 @@
   height: 100vh;
   padding-top: 10vh;
   width: 100%;
+  background-color: #f9f9f9;
 }
 .about h3 {
   color: #0b0c10;
@@ -70,8 +77,6 @@
   margin-left: 10px;
 }
 
-
-/* Set gray background color and 100% height */
 .sidenav {
   padding-top: 20px;
   background-color: #f1f1f1;
@@ -82,9 +87,7 @@ html, body {
   margin: 0;
 }
 body {
-  background-color: #f1f1f1;
-  background-color: #66fcf1;
-  background-color: #c5c6c7;
+  background-color: #ff4141;
   margin: auto;
 }
 
@@ -116,7 +119,6 @@ body {
     height: auto;
     padding: 15px;
   }
-
   .about .col-sm-12 p {
     font-size: 2vh;
     color: #0b0c10;
@@ -124,7 +126,5 @@ body {
     margin-bottom: 4vh;
   }
   .row.content {height:auto;}
-  .typeLogo{
 
-  }
 }
