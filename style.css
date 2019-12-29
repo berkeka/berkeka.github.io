@@ -40,7 +40,7 @@
   background-color: #f9f9f9;
 }
 #main h1 {
-  font-size: 45px;
+  font-size: 4vh;
 }
 .container{
   position: relative;
@@ -65,7 +65,13 @@
 #history p{
   font-weight: bold;
   font-size: 15pt;
-
+  margin-left: -5vh;
+}
+#projects{
+  height: 100vh;
+  padding-top: 10vh;
+  width: 100%;
+  background-color: #f9f9f9;
 }
 .about h3 {
   color: #0b0c10;
@@ -133,6 +139,9 @@ body {
   #history{
     height: auto;
   }
+  #history p {
+    margin-left: 5vh;
+  }
 
 }
 @media screen and (max-width: 568px) {
@@ -141,5 +150,6 @@ body {
   }
   #history p {
     font-size: 10pt;
+    margin-left: none;
   }
 }
