@@ -73,6 +73,13 @@
   width: 100%;
   background-color: #f9f9f9;
 }
+#projects h4{
+  color: #ff4141;
+}
+#projects .btn-primary{
+  background-color: #ff4141;
+}
+
 .about h3 {
   color: #0b0c10;
 }
